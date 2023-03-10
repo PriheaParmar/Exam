@@ -1,0 +1,152 @@
+body{background-color: black; }
+ul{list-style-type: none;}
+li{list-style-type: none;}
+a{color: aliceblue; text-decoration: none;}
+/*--------------------------------------------------------------MAIN-LOGO-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.mainlogo{
+  position: fixed;
+  margin: 0; 
+  padding: 0; 
+  width: 4vw; 
+  margin-left: 10px;
+  border: white solid 2px; 
+  border-radius: 100vw; 
+  transition: box-shadow 2s;
+  z-index: 4;
+  }
+
+  .mainlogo:hover{box-shadow: 0px 0px 10px 5px  gold;}
+
+/*----------------------------------------------------------BUTTERFLY-LIST-LOGO--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.listlogo{
+  float: right;
+  position: fixed;
+  margin: 0; 
+  padding: 0; 
+  z-index: 3;
+  top: 20px;
+  width: 50px; 
+  height: 50px;
+  margin-left: 1435px;
+  transition: box-shadow 2s;
+ }
+ 
+ .listlogo:hover{ box-shadow: 0px 0px 10px 4px  gold;}
+ .listlogo:hover .d{display: block;}
+
+/*-----------------------------------------------------------------INSTAGRAM ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.instalogo{
+  position: fixed;
+  margin: 0; 
+  padding: 0;
+  height: 30px; 
+  width: 30px;
+  bottom: 50px;
+  margin-left: 28px;
+  border-radius: 10px; 
+  transition:box-shadow 2s;
+  z-index: 4; 
+}
+.instalogo:hover{ box-shadow: 0px 0px 10px 4px  gold;}
+        
+.instaid{
+position: fixed;
+display: none;
+bottom: 53px;
+color: snow;
+margin-left: 52px;
+text-align: right;
+border-bottom: snow solid 1px;
+z-index: 4;
+}
+
+.insta:hover .instaid{width: 100px; display: block;}
+
+/*---------------------------------------------------------------------MAIL---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.mail{
+  position: fixed;
+  margin: 0; 
+  padding: 0;
+  height: 25px; 
+  width: 33px;
+  bottom: 100px;
+  left: 35px;
+  transition:box-shadow 2s; 
+  z-index: 4;
+}  
+
+.mail:hover{box-shadow: 0px 0px 10px 4px  gold;}
+
+.mailid{
+  position: fixed;
+  display: none;
+  bottom: 101px;
+  color: snow;
+  margin-left: 34px;
+  text-align: right;
+  border-bottom: snow solid 1px;
+}
+.mail:hover .mailid{width: 225px; display: block;}
+     
+/*---------------------------------------------------------------------LINES---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+  
+  .line1{position: fixed;  margin:0; padding:0; top: 0vw; left: 30PX; z-index: 3;}    
+  .line2{position: fixed;  margin:0; padding:0; top: 13vw; left: 30PX; z-index: 3;}     
+  .line3{position: fixed;  margin:0; padding:0; top: 26vw; left: 30PX; z-index: 3;}   
+  .line4{position: fixed;  margin:0; padding:0; top: 39vw; left: 30PX; z-index: 3;}
+
+  .lineryt1{
+  float: right;
+  position: fixed;
+  display: none;
+  margin: 0; 
+  padding: 0; 
+  color: aliceblue;
+  background-color: black;
+  font-family: philosopher;
+  top: 21.5px;
+  margin-left: 1440px;}
+
+  .drop:hover .lineryt1{display: block;}     
+.drop:hover .lineryt2{display: block;} 
+.drop:hover .aboutme{display: block;} 
+.drop:hover .maybe{display: block;} 
+.drop:hover .cy{display: block;}
+.aboutme{ 
+  float: right;
+  position: fixed;
+  display: none;
+  margin: 0; 
+  padding: 0; 
+  color: aliceblue;
+  background-color: black;
+  font-family: philosopher;
+  top: 135px;
+  margin-left: 1430px;
+
+}
+.maybe{
+  float: right;
+  position: fixed;
+  display: none;
+  margin: 0; 
+  padding: 0; 
+  color: aliceblue;
+  background-color: black;
+  font-family: philosopher;
+  top: 170px;
+  margin-left: 1430px;
+}
+.cy{
+  float: right;
+  position: fixed;
+  display: none;
+  margin: 0; 
+  padding: 0; 
+  color: aliceblue;
+  background-color: black;
+  font-family: philosopher;
+  top: 205px;
+  margin-left: 1430px;
+}
